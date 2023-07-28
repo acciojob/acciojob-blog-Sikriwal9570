@@ -1,16 +1,62 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Acciojobs Blog</title>
+  <style>
+    /* Add your CSS styling here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .blog-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .blog-item {
+      max-width: 300px;
+    }
+    .blog-image {
+      height: 200px;
+    }
+    .blog-heading {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .blog-description {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <h1>Welcome to Acciojobs!</h1>
+  <marquee behavior="scroll" direction="left">Welcome to Acciojobs! </marquee>
+  <div class="blog-container">
+    <!-- Blog Item 1 -->
+    <div class="blog-item">
+      <a href="https://acciojob.com/blog/brute-force-vs-optimization/">
+        <img class="blog-image" src="Image_one.jpg" alt="Blog 1">
+        <h2 class="blog-heading">Brute Force vs. Optimization</h2>
+        <p class="blog-description">We can say that optimization is one step further than the brute-force method of problem-solving…</p>
+      </a>
+    </div>
+    <!-- Blog Item 2 -->
+    <div class="blog-item">
+      <a href="https://acciojob.com/blog/dsa-vs-competitive-programming/">
+        <img class="blog-image" src="Image_two.jpg" alt="Blog 2">
+        <h2 class="blog-heading">DSA vs. Competitive Programming</h2>
+        <p class="blog-description">DSA or Competitive programming? What is better for you? Questions such as these often put you in a…</p>
+      </a>
+    </div>
+    <!-- Blog Item 3 -->
+    <div class="blog-item">
+      <a href="https://acciojob.com/blog/10-tips-to-optimize-your-linkedin-profile-and-attract-recruiters/">
+        <img class="blog-image" src="Image_three.jpg" alt="Blog 3">
+        <h2 class="blog-heading">10 Tips to Optimize Your LinkedIn Profile and Attract Recruiters</h2>
+        <p class="blog-description">As a job seeker, you may wonder how to make your LinkedIn profile stand out to recruiters. Your LinkedIn…</p>
+      </a>
+    </div>
+  </div>
 </body>
-
 </html>
